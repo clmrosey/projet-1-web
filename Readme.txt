@@ -1,1 +1,1 @@
-voici les personnes qui font le projet
+voici les personnes qui font le project
