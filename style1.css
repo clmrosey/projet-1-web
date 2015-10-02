@@ -1,0 +1,72 @@
+div#header {
+	/*position: relative;*/
+	background: #4b5b6c;
+	/*linear-gradient(top bottom, #4b5b6c 0%)*/;
+	height: auto;
+	width: 100%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background:#333 url(fondgris.jpg) no-repeat fixed;
+	font-family: sans-serif;
+	}
+
+/*ul#menu_horizontal li { 
+display : inline-block;
+padding : 0 1em; 
+
+}*/
+
+#menu_horizontal {
+display: table;
+margin: 0 auto;
+list-style-type : none; 
+max-width: 1400px;
+background: #0994f0;
+}
+
+#menu_horizontal div { display: table; margin: 0 auto; }
+
+.btn {
+  display: inline-block;
+  background: #0994f0;
+  color: #eee;
+  font-size: 1.01vw;
+  padding: 20px 1vw 20px 1vw;
+  margin-left: -4.5px;
+  text-decoration: none;
+  transition: background .3s, color .3s;
+}
+.btn:nth-child(1) { margin-left: 0;}
+
+.btn:hover {
+  background: #3cb0fd;
+  color: #fff;
+}
+
+#content {
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;	
+	width: 80%;
+	margin: auto; 
+	height: 100%;
+
+}
+
+#right {
+	margin: 0 2% 0 2%;
+	text-align: justify;
+
+}
+
+#logo  {
+	background: url("logocassis2.png") no-repeat;
+    background-size: 100% 100%;
+    width: 150px;
+    height: 150px;
+	margin: 1% 0 0 2%;
+	position: absolute;
+}
