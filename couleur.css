@@ -1,0 +1,29 @@
+.bleu {
+	background: url(images/ico_puce_bleu.gif) no-repeat left;
+	color: #42b4dd;
+}
+
+.vert {
+	background: url(images/ico_puce_vert.gif) no-repeat left;
+	color: #73bf4f;
+}
+
+.orange {
+	background: url(images/ico_puce_orange.gif) no-repeat left;
+	color: #e28636;
+}
+
+.rouge {
+	background: url(images/ico_puce_rouge.gif) no-repeat left;
+	color: #cd4733;
+}
+
+.fushia {
+	background: url(images/ico_puce_fushia.gif) no-repeat left;
+	color: #c625bd;
+}
+
+.violet {
+	background: url(images/ico_puce_violet.gif) no-repeat left;
+	color: #a817eb;
+}

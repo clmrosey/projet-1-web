@@ -1,0 +1,67 @@
+.test {
+display: block;
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+float: none;
+z-index: auto;
+width: 320px;
+height: 320px;
+position: static;
+cursor: default;
+opacity: 1;
+margin: 0;
+padding: 0;
+overflow: visible;
+border: none;
+-webkit-border-radius: 0;
+border-radius: 0;
+font: normal 1px/normal Arial, Helvetica, sans-serif;
+color: rgba(255,255,255,1);
+-o-text-overflow: clip;
+text-overflow: clip;
+background: -webkit-radial-gradient(circle, rgb(35,29,24) 0, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 100%), -webkit-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), -webkit-radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), -webkit-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), -webkit-linear-gradient(-90deg, rgba(40,40,40,1) 0, rgba(40,40,40,1) 7%, rgba(90,90,90,1) 47%, rgba(180,180,180,1) 97%, rgba(180,180,180,1) 100%);
+background: -moz-radial-gradient(circle, rgb(35,29,24) 0, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 100%), -moz-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), -moz-radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), -moz-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), -moz-linear-gradient(180deg, rgba(40,40,40,1) 0, rgba(40,40,40,1) 7%, rgba(90,90,90,1) 47%, rgba(180,180,180,1) 97%, rgba(180,180,180,1) 100%);
+background: radial-gradient(circle, rgb(35,29,24) 0, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 100%), radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), linear-gradient(180deg, rgba(40,40,40,1) 0, rgba(40,40,40,1) 7%, rgba(90,90,90,1) 47%, rgba(180,180,180,1) 97%, rgba(180,180,180,1) 100%);
+background-position: 3em 3em, 3em 4em, auto auto, 0 1em, 50% 50%;
+-webkit-background-origin: padding-box;
+background-origin: padding-box;
+-webkit-background-clip: border-box;
+background-clip: border-box;
+-webkit-background-size: 5em 6em, 5em 6em, 5em 6em, 5em 6em, auto auto;
+background-size: 5em 6em, 5em 6em, 5em 6em, 5em 6em, auto auto;
+-webkit-box-shadow: none;
+box-shadow: none;
+text-shadow: none;
+-webkit-transition: none;
+-moz-transition: none;
+-o-transition: none;
+transition: none;
+-webkit-transform: none;
+transform: none;
+-webkit-transform-origin: 50% 50% 0;
+transform-origin: 50% 50% 0;
+}
+
+.gradient-pattern {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 320px;
+  height: 320px;
+  border: none;
+  font: normal 1px/normal Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-radial-gradient(circle, rgb(35,29,24) 0, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 100%), -webkit-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), -webkit-radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), -webkit-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), -webkit-linear-gradient(-90deg, rgba(40,40,40,1) 0, rgba(40,40,40,1) 7%, rgba(90,90,90,1) 47%, rgba(180,180,180,1) 97%, rgba(180,180,180,1) 100%);
+  background: -moz-radial-gradient(circle, rgb(35,29,24) 0, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 100%), -moz-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), -moz-radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), -moz-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), -moz-linear-gradient(180deg, rgba(40,40,40,1) 0, rgba(40,40,40,1) 7%, rgba(90,90,90,1) 47%, rgba(180,180,180,1) 97%, rgba(180,180,180,1) 100%);
+  background: radial-gradient(circle, rgb(35,29,24) 0, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 100%), radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), linear-gradient(180deg, rgba(40,40,40,1) 0, rgba(40,40,40,1) 7%, rgba(90,90,90,1) 47%, rgba(180,180,180,1) 97%, rgba(180,180,180,1) 100%);
+  background-position: 3em 3em, 3em 4em, auto auto, 0 1em, 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 5em 6em, 5em 6em, 5em 6em, 5em 6em, auto auto;
+  background-size: 5em 6em, 5em 6em, 5em 6em, 5em 6em, auto auto;
+}

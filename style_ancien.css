@@ -1,0 +1,22 @@
+#header
+
+{
+
+position: fixed;
+bottom: 95%;
+width: 100%;
+height: 38px;
+left: 0px;
+background: #99a0a1;
+
+}
+
+
+ul#menu_horizontal li { 
+display : inline-block;
+padding : 0 0.5em; 
+}
+ul#menu_horizontal {
+list-style-type : none; 
+}
+
